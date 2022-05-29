@@ -1,4 +1,10 @@
-export const linearRegression = (rating, discount, category, payment) => {
+export const linearRegression = (
+    rating,
+    discount,
+    category,
+    payment,
+    costPrice
+) => {
     const values = {
         Rating: -0.04585547,
         discount: -2.79027955,
@@ -16,13 +22,15 @@ export const linearRegression = (rating, discount, category, payment) => {
             2: 0.03895595,
         },
         intercept: 14.971974670261101,
+        costPrice: 0.16647424,
     };
     // gross income
     return (
-        values["intercept"] +
+        Math.max(values["intercept"] +
         rating * values["Rating"] +
         discount * values["discount"] +
         values["category"][category] +
-        values["payment"][payment]
+        values["payment"][payment] +
+        costPrice * values["costPrice"], 0)
     );
 };

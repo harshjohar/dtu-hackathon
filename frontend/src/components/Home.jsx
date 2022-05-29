@@ -108,7 +108,7 @@ This is where we will come in!
                     <div className="approach-tech">
                         {
                             logos.map((img,i)=>{
-                                return <img src={img.img} alt="" className="tech"/>
+                                return <img src={img.img} alt="" className="tech" key={i}/>
                             })
                         }
                     </div>
