@@ -10,7 +10,15 @@ Do these categories need to be replaced?
 Is there any solution to improving sales and maximising profit?
 This is where we will come in!
 
-> Our app, “Hacked the Grocers Gap”, will provide some key insights of the supermarket identifying those product segments with less sales. On the basis of previous records, we will analyse and recommend the items to be retained or replaced in the supermarket to get the maximum profit considering quantity and margins.
+> Our app, “Valuati : Hacked the Grocers Gap”, will provide some key insights of the supermarket identifying those product segments with less sales. On the basis of previous records, we will analyse and recommend the items to be retained or replaced in the supermarket to get the maximum profit considering quantity and margins.
+
+# Screenshots
+
+<img src="./screenshots/home.png">
+<img src="./screenshots/analysis.png">
+<img src="./screenshots/graph.png">
+<img src="./screenshots/predict.png">
+<img src="./screenshots/graph2.png">
 
 ## Team Members
 - Suvidhi
